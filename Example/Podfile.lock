@@ -1,24 +1,29 @@
 PODS:
-  - MGDeeplinkNavigator/DeeplinkNavigator (0.0.4)
-  - MGDeeplinkNavigator/MGDeeplinkNavigator_Extension (0.0.4):
+  - MGDeeplinkNavigator/DeeplinkNavigator (0.0.7)
+  - MGDeeplinkNavigator/MGDeeplinkNavigator_Extension (0.0.7):
     - MGDeeplinkNavigator/DeeplinkNavigator
-  - Nimble (7.0.2)
-  - Quick (1.2.0)
+  - Nimble (8.0.2)
+  - Quick (2.1.0)
 
 DEPENDENCIES:
   - MGDeeplinkNavigator/MGDeeplinkNavigator_Extension (from `../`)
-  - Nimble (~> 7.0.2)
-  - Quick (~> 1.2.0)
+  - Nimble
+  - Quick
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
 
 EXTERNAL SOURCES:
   MGDeeplinkNavigator:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  MGDeeplinkNavigator: 2bfbc5ba4e9b649e867815be98ed513c9611f7e4
-  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  MGDeeplinkNavigator: 86d9afbd59acb1449353df23fc791adcae02f4d6
+  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
 
-PODFILE CHECKSUM: 914dcd8e2650b9681048b2428cdba686630d1c6f
+PODFILE CHECKSUM: 9b65459d10b71743ada53bbfd2b9171c8dd07581
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

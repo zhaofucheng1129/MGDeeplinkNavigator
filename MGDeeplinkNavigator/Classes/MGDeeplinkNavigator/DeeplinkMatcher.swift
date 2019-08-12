@@ -78,7 +78,7 @@ open class DeeplinkMatcher {
     
     // MARK: Singleton
     
-    open static let `default` = DeeplinkMatcher()
+    public static let `default` = DeeplinkMatcher()
     
 
     // MARK: Initialization

@@ -130,7 +130,7 @@ open class DeeplinkNavigator {
     /// Returns a default navigator. A global constant `Navigator` is a shortcut of `DeeplinkNavigator.default`.
     ///
     /// - seealso: `Navigator`
-    open static let `default` = DeeplinkNavigator()
+    public static let `default` = DeeplinkNavigator()
     
     
     // MARK: Initializing
@@ -231,7 +231,7 @@ open class DeeplinkNavigator {
             return nil
         }
         guard (viewController is UINavigationController) == false else { return nil }
-        navigationController.pushViewController(viewController, animated: animated)
+        navigationController.mg_pushViewController(viewController, animated: animated)
         return viewController
     }
     
